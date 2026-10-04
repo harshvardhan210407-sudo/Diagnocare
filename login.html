@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic Laboratory Portal</title>
+
+    <!--CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+
+    <!-- ===========================
+        NAVBAR START
+=========================== -->
+
+    <nav>
+
+        <div class="logo">
+
+            <i class="fa-solid fa-flask-vial"></i>
+
+            <h2>DiagnoCare</h2>
+
+        </div>
+
+      <ul>
+
+    <li><a href="index.html">Home</a></li>
+
+    <li><a href="about.html">About</a></li>
+
+    <li><a href="tests.html">Tests</a></li>
+
+    <li><a href="book-test.html">Book Test</a></li>
+
+    <li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+       <button onclick="window.location.href='login.html'">Login</button>
+
+    </nav>
+
+    <!-- ===========================
+        NAVBAR END
+=========================== -->
+
+    <!-- ===========================
+        LOGIN SECTION
+=========================== -->
+
+<section class="login-page">
+
+    <h1>Login</h1>
+
+    <form id="loginForm">
+
+    <input type="email" placeholder="Enter Email" required>
+
+    <input type="password" placeholder="Enter Password" required>
+
+    <button type="submit">
+        Login
+    </button>
+
+    <p id="loginSuccess"></p>
+
+</form>
+
+    <p>
+
+        Don't have an account?
+
+        <a href="#">Register</a>
+
+    </p>
+
+</section>
+
+    <!-- ===========================
+        FOOTER START
+=========================== -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+
+                <h2>DiagnoCare</h2>
+
+                <p>
+                    Trusted diagnostic laboratory providing accurate reports,
+                    home sample collection and quality healthcare services.
+                </p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                   <li><a href="index.html">Home</a></li>
+
+                   <li><a href="about.html">About</a></li>
+
+                   <li><a href="tests.html">Tests</a></li>
+
+                   <li><a href="book-test.html">Book Test</a></li>
+
+                   <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Contact</h3>
+
+                <p><i class="fa-solid fa-location-dot"></i> Jaipur, Rajasthan</p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+919876543210">+91 9876543210</a>
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:contact@diagnocare.com">
+                        contact@diagnocare.com
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+
+            © 2026 DiagnoCare | All Rights Reserved
+
+        </p>
+
+    </footer>
+
+    <!-- ===========================
+        FOOTER END
+=========================== -->
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+<form id="loginForm">
+    <input type="email" id="email" placeholder="Enter Email">
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button type="submit">Login</button>
+</form>

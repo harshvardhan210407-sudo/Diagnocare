@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic Laboratory Portal</title>
+
+    <!--CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+
+    <!-- ===========================
+        NAVBAR START
+=========================== -->
+
+    <nav>
+
+        <div class="logo">
+
+            <i class="fa-solid fa-flask-vial"></i>
+
+            <h2>DiagnoCare</h2>
+
+        </div>
+
+       <ul>
+
+    <li><a href="index.html">Home</a></li>
+
+    <li><a href="about.html">About</a></li>
+
+    <li><a href="tests.html">Tests</a></li>
+
+    <li><a href="book-test.html">Book Test</a></li>
+
+    <li><a href="contact.html">Contact</a></li>
+
+</ul>
+       <button onclick="window.location.href='login.html'">Login</button>
+    </nav>
+
+    <!-- ===========================
+        NAVBAR END
+=========================== -->
+<!-- ===========================
+        BOOK TEST
+=========================== -->
+
+<section class="booking">
+
+    <h1>Book Your Diagnostic Test</h1>
+
+<form id="bookingForm">
+
+    <input type="text" placeholder="Patient Name" required>
+
+    <input type="number" placeholder="Age" required>
+
+    <select required>
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+    </select>
+
+    <input type="tel" placeholder="Mobile Number" required>
+
+    <select required>
+        <option value="">Select Test</option>
+        <option>Complete Blood Count</option>
+        <option>Blood Sugar</option>
+        <option>Thyroid Test</option>
+        <option>Lipid Profile</option>
+    </select>
+
+    <input type="date" required>
+
+
+    <!-- TEST LOCATION -->
+
+    <div class="test-location">
+
+        <label>Where would you like to take the test?</label>
+
+        <div class="location-options">
+
+            <label class="location-card">
+                <input type="radio" name="testLocation" value="home" required>
+
+                <div class="location-content">
+                    <i class="fa-solid fa-house"></i>
+
+                    <div>
+                        <h3>Home Collection</h3>
+                        <p>Technician will collect the sample from your home.</p>
+                    </div>
+                </div>
+            </label>
+
+
+            <label class="location-card">
+                <input type="radio" name="testLocation" value="clinic">
+
+                <div class="location-content">
+                    <i class="fa-solid fa-hospital"></i>
+
+                    <div>
+                        <h3>Clinic / Lab Visit</h3>
+                        <p>Visit our diagnostic centre for the test.</p>
+                    </div>
+                </div>
+            </label>
+
+        </div>
+
+    </div>
+
+
+    <!-- HOME COLLECTION DETAILS -->
+
+    <div id="homeDetails" class="location-details">
+
+        <input type="text" placeholder="Complete Home Address">
+
+        <input type="text" placeholder="City">
+
+        <input type="number" placeholder="Pincode">
+
+        <select>
+            <option value="">Preferred Time</option>
+            <option>08:00 AM - 10:00 AM</option>
+            <option>10:00 AM - 12:00 PM</option>
+            <option>12:00 PM - 02:00 PM</option>
+            <option>02:00 PM - 04:00 PM</option>
+        </select>
+
+    </div>
+
+
+    <!-- CLINIC DETAILS -->
+
+    <div id="clinicDetails" class="location-details">
+
+        <select>
+            <option value="">Select Clinic / Lab</option>
+            <option>DiagnoCare Jaipur Centre</option>
+            <option>DiagnoCare Mansarovar Centre</option>
+            <option>DiagnoCare Vaishali Nagar Centre</option>
+        </select>
+
+    </div>
+
+
+    <button type="submit">Book Test</button>
+
+    <p id="successMessage"></p>
+
+</form>
+
+</section>
+
+    <!-- ===========================
+        FOOTER START
+=========================== -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+
+                <h2>DiagnoCare</h2>
+
+                <p>
+                    Trusted diagnostic laboratory providing accurate reports,
+                    home sample collection and quality healthcare services.
+                </p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                   <li><a href="index.html">Home</a></li>
+
+                   <li><a href="about.html">About</a></li>
+
+                   <li><a href="tests.html">Tests</a></li>
+
+                   <li><a href="book-test.html">Book Test</a></li>
+
+                   <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Contact</h3>
+
+                <p><i class="fa-solid fa-location-dot"></i> Jaipur, Rajasthan</p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+919876543210">+91 9876543210</a>
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:contact@diagnocare.com">
+                        contact@diagnocare.com
+                    </a>
+                </p>
+
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+
+            © 2026 DiagnoCare | All Rights Reserved
+
+        </p>
+
+    </footer>
+
+    <!-- ===========================
+        FOOTER END
+=========================== -->
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1722 @@
+/* ===========================
+   GOOGLE FONT & RESET CSS
+=========================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #f8fbff;
+}
+/* ===========================
+        NAVBAR
+=========================== */
+
+nav{
+    width:100%;
+    height:80px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.logo i{
+
+    font-size:30px;
+
+    color:#2563eb;
+
+}
+
+.logo h2{
+
+    color:#2563eb;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:35px;
+
+}
+
+nav ul li a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:#2563eb;
+
+}
+
+nav button{
+
+    padding:10px 22px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:#2563eb;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+nav button:hover{
+
+    background:#1d4ed8;
+
+}
+.badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;   /* Center the text */
+    gap: 10px;
+
+    width: fit-content;
+    margin: 20px auto;         /* Auto margin makes it center */
+
+    background: #dcecff;
+    color: #2563eb;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+/* ===========================
+        HERO SECTION
+=========================== */
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:80px 8%;
+
+    min-height:90vh;
+
+}
+
+.hero-text{
+
+    width:50%;
+
+}
+
+.hero-text h1{
+
+    font-size:55px;
+
+    line-height:70px;
+
+    color:#0f172a;
+
+}
+
+.hero-text p{
+
+    font-size:20px;
+
+    color:#555;
+
+    margin:25px 0;
+
+    line-height:35px;
+
+}
+
+.hero-btn{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:40px;
+
+}
+
+.hero-btn button{
+
+    padding:15px 35px;
+
+    font-size:18px;
+
+    border: none;
+
+    font-family:'Poppins',sans-serif;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    background-color: #3b82f6;
+
+    color: white;
+
+}
+
+.book-btn{
+
+    padding:15px 35px;
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+}
+
+.test-btn{
+
+    padding:15px 35px;
+
+    border:2px solid #2563eb;
+
+    background:white;
+
+    color:#2563eb;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+}
+
+.hero-image{
+
+    width:45%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    max-width:500px;
+
+    height:auto;
+    border-radius: 20%;
+
+}
+/* ===========================
+        POPULAR TESTS
+=========================== */
+
+.tests{
+
+    padding:80px 8%;
+
+    text-align:center;
+
+}
+
+.tests h2{
+
+    font-size:40px;
+
+    color:#0f172a;
+
+    margin-bottom:50px;
+
+}
+
+.test-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:25px;
+
+}
+
+.card{
+
+    background:white;
+
+    width:25%;
+
+    padding:35px 20px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card i{
+
+    font-size:50px;
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    font-size:22px;
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+.card button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2563eb;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+/* ===========================
+        WHY CHOOSE US
+=========================== */
+
+.why-us{
+
+    padding:80px 8%;
+
+    background:white;
+
+}
+
+.why-us h2{
+
+    text-align:center;
+
+    font-size:40px;
+
+    margin-bottom:60px;
+
+    color:#0f172a;
+
+}
+
+.why-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:25px;
+
+}
+
+.why-card{
+
+    background:#f8fbff;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    transition:.4s;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+
+}
+
+.why-card i{
+
+    font-size:45px;
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+}
+
+.why-card h3{
+
+    margin-bottom:15px;
+
+}
+
+.why-card p{
+
+    color:#555;
+
+    line-height:28px;
+
+}
+/* ===========================
+        HOW IT WORKS
+=========================== */
+
+.process{
+
+    padding:90px 8%;
+
+    background:#f8fbff;
+
+}
+
+.process h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:70px;
+
+    color:#0f172a;
+
+}
+
+.process-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+.step{
+
+    width:240px;
+
+    text-align:center;
+
+}
+
+.circle{
+
+    width:80px;
+
+    height:80px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+}
+
+.step h3{
+
+    margin-bottom:15px;
+
+}
+
+.step p{
+
+    color:#666;
+
+    line-height:28px;
+
+}
+
+.arrow{
+
+    font-size:35px;
+
+    color:#2563eb;
+
+}
+/* ===========================
+        STATISTICS
+=========================== */
+
+.stats{
+
+    background:#2563eb;
+
+    padding:80px 8%;
+
+    display:flex;
+
+    justify-content:space-around;
+
+    text-align:center;
+
+}
+
+.stat-box h2{
+
+    color:white;
+
+    font-size:50px;
+
+    margin-bottom:10px;
+
+}
+
+.stat-box p{
+
+    color:white;
+
+    font-size:20px;
+
+}
+
+/* ===========================
+      TESTIMONIALS
+=========================== */
+
+.testimonials{
+
+    padding:90px 8%;
+
+    background:white;
+
+}
+
+.testimonials h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:60px;
+
+}
+
+.testimonial-container{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+.testimonial-card{
+
+    background:#f8fbff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    transition:.4s;
+
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+
+}
+
+.testimonial-card img{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin-bottom:20px;
+
+}
+
+.stars{
+
+    color:#facc15;
+
+    margin:15px 0;
+
+}
+
+.testimonial-card p{
+
+    color:#555;
+
+    line-height:28px;
+
+}
+/* ===========================
+        FOOTER
+=========================== */
+
+footer{
+
+    background:#0f172a;
+
+    color:white;
+
+    padding:60px 8% 20px;
+
+}
+
+.footer-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:40px;
+
+}
+
+.footer-box{
+
+    width:33%;
+}
+
+.footer-box h2,
+.footer-box h3{
+
+    margin-bottom:20px;
+
+}
+
+.footer-box p{
+
+    line-height:30px;
+
+    color:#cbd5e1;
+
+}
+
+.footer-box ul{
+
+    list-style:none;
+
+}
+
+.footer-box ul li{
+
+    margin-bottom:12px;
+
+}
+
+.footer-box a{
+        text-decoration:none;
+       
+}
+.footer-box a:hover{
+    text-decoration: underline;
+}
+.footer-box ul li a{
+
+    text-decoration:none;
+
+    color:#cbd5e1;
+
+    transition:.3s;
+
+}
+
+.footer-box ul li a:hover{
+
+    color:white;
+
+}
+
+.footer-box i{
+
+    color:#3b82f6;
+
+    margin-right:8px;
+
+}
+
+hr{
+
+    margin:40px 0 20px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+}
+
+.copyright{
+
+    text-align:center;
+
+    color:#94a3b8;
+
+}
+/* ===========================
+        ABOUT PAGE
+=========================== */
+
+.about{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:80px 8%;
+
+    gap:60px;
+
+}
+
+.about-image{
+
+    width:45%;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    border-radius:20px;
+
+}
+
+.about-content{
+
+    width:55%;
+
+}
+
+.about-content h1{
+
+    font-size:45px;
+
+    margin-bottom:25px;
+
+    color:#0f172a;
+
+}
+
+.about-content h3{
+
+    margin-top:25px;
+
+    color:#2563eb;
+
+}
+
+.about-content p{
+
+    margin-top:15px;
+
+    line-height:30px;
+
+    color:#555;
+
+}
+/* ===========================
+        TEST PAGE
+=========================== */
+
+.tests-page{
+
+    padding:80px 8%;
+
+    text-align:center;
+
+}
+
+.tests-page h1{
+
+    font-size:45px;
+
+    margin-bottom:30px;
+
+}
+
+#search{
+
+    width:400px;
+
+    padding:14px;
+
+    border:2px solid #2563eb;
+
+    border-radius:8px;
+
+    margin-bottom:50px;
+
+    font-size:16px;
+
+}
+
+.test-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+    margin-top:20px;
+
+}
+.test-card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.test-card h2{
+
+    margin-bottom:15px;
+
+}
+
+.test-card p{
+
+    margin-bottom:20px;
+
+    color:#2563eb;
+
+    font-size:20px;
+
+    font-weight:600;
+
+}
+
+.test-card button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2563eb;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+
+/* ===========================
+        BOOKING PAGE
+=========================== */
+
+.booking{
+
+    padding:80px 8%;
+
+    text-align:center;
+
+}
+
+.booking h1{
+
+    margin-bottom:40px;
+
+    font-size:42px;
+
+}
+
+#bookingForm{
+
+    width:500px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+#bookingForm input,
+#bookingForm select{
+
+    padding:15px;
+
+    font-size:16px;
+
+    border:2px solid #d1d5db;
+
+    border-radius:8px;
+
+}
+
+#bookingForm button{
+
+    padding:15px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+/* ===========================
+        LOGIN PAGE
+=========================== */
+
+.login-page{
+
+    padding:80px 8%;
+
+    text-align:center;
+
+}
+
+.login-page h1{
+
+    font-size:42px;
+
+    margin-bottom:40px;
+
+}
+
+#loginForm{
+
+    width:420px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+#loginForm input{
+
+    padding:15px;
+
+    border:2px solid #d1d5db;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+#loginForm button{
+
+    padding:15px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+.login-page p{
+
+    margin-top:25px;
+
+}
+
+.login-page a{
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+#loginSuccess{
+
+    color:green;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    margin-top:20px;
+
+    text-align:center;
+
+}
+/* ===========================
+        CONTACT PAGE
+=========================== */
+
+.contact-page{
+
+    padding:80px 8%;
+
+}
+
+.contact-page h1{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:10px;
+
+}
+
+.contact-text{
+
+    text-align:center;
+
+    color:#555;
+
+    margin-bottom:50px;
+
+}
+
+.contact-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:50px;
+
+}
+
+.contact-info{
+
+    width:40%;
+
+}
+
+.contact-info h2{
+
+    margin-bottom:25px;
+
+    color:#2563eb;
+
+}
+
+.contact-info p{
+
+    margin-bottom:20px;
+
+    color:#555;
+
+    font-size:18px;
+
+}
+
+.contact-info i{
+
+    color:#2563eb;
+
+    margin-right:10px;
+
+}
+
+.contact-form{
+
+    width:60%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    border:2px solid #d1d5db;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    resize:none;
+
+    box-sizing:border-box;
+
+}
+.contact-form button{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+.feature-card{
+
+    cursor:pointer;
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-8px);
+
+}
+css
+/* =========================
+   TEST LOCATION
+========================= */
+
+.test-location {
+    margin-top: 10px;
+}
+
+.test-location > label {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.location-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.location-card {
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #fff;
+}
+
+.location-card:hover {
+    border-color: #1fa67a;
+    transform: translateY(-2px);
+}
+
+.location-card input {
+    display: none;
+}
+
+.location-card:has(input:checked) {
+    border-color: #1fa67a;
+    background: #f0fff9;
+}
+
+.location-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.location-content i {
+    font-size: 28px;
+    color: #1fa67a;
+}
+
+.location-content h3 {
+    margin: 0 0 5px;
+    font-size: 17px;
+}
+
+.location-content p {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+
+/* =========================
+   LOCATION DETAILS
+========================= */
+
+.location-details {
+    display: none;
+    margin-top: 20px;
+}
+
+.location-details.active {
+    display: block;
+}
+
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    .location-options {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* =========================================
+   PAYMENT PAGE
+========================================= */
+
+.payment-section {
+    min-height: 80vh;
+    padding: 60px 7%;
+    background: #f5faf8;
+}
+
+.payment-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 0.9fr;
+    gap: 30px;
+}
+
+
+/* LEFT SIDE */
+
+.payment-left {
+    background: white;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.07);
+}
+
+.payment-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.payment-heading > i {
+    font-size: 35px;
+    color: #1fa67a;
+}
+
+.payment-heading h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.payment-heading p {
+    margin: 5px 0;
+    color: #777;
+}
+
+
+/* PAYMENT METHODS */
+
+.payment-methods h3 {
+    margin-bottom: 15px;
+}
+
+.payment-method {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.payment-method:hover,
+.payment-method.active {
+    border-color: #1fa67a;
+    background: #f0fff9;
+}
+
+.method-icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e8f8f2;
+    border-radius: 10px;
+    color: #1fa67a;
+    font-size: 20px;
+}
+
+.payment-method h4 {
+    margin: 0;
+}
+
+.payment-method p {
+    margin: 3px 0 0;
+    font-size: 13px;
+    color: #777;
+}
+
+.payment-method > .fa-chevron-right {
+    margin-left: auto;
+    color: #999;
+}
+
+
+/* PAYMENT BOX */
+
+.payment-box {
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 14px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.payment-box h3 {
+    margin-bottom: 5px;
+}
+
+.payment-subtitle {
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* QR */
+
+.qr-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 10px;
+}
+
+.qr-placeholder {
+    width: 190px;
+    height: 190px;
+    border: 8px solid white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:
+        repeating-linear-gradient(
+            45deg,
+            #111 0px,
+            #111 4px,
+            #fff 4px,
+            #fff 8px
+        );
+}
+
+.qr-placeholder i {
+    font-size: 70px;
+    color: white;
+    background: #111;
+    padding: 8px;
+}
+
+.qr-placeholder span {
+    margin-top: 5px;
+    background: white;
+    padding: 3px 8px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.demo-text {
+    font-size: 12px;
+    color: #999;
+}
+
+
+/* UPI ID */
+
+.upi-id {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.upi-id span {
+    color: #777;
+    font-size: 13px;
+}
+
+.upi-id strong {
+    color: #222;
+}
+
+.upi-id button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #1fa67a;
+    font-size: 18px;
+}
+
+
+/* INPUTS */
+
+.payment-box input,
+.bank-select {
+    width: 100%;
+    padding: 13px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+.card-row {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* PAY BUTTON */
+
+.pay-button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    background: #1fa67a;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pay-button:hover {
+    background: #168761;
+    transform: translateY(-1px);
+}
+
+
+/* HIDDEN */
+
+.hidden {
+    display: none !important;
+}
+.payment-method {
+    cursor: pointer;
+}
+
+/* =========================================
+   PAYMENT SUMMARY
+========================================= */
+
+.payment-summary {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    height: fit-content;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.07);
+}
+
+.summary-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.summary-header i {
+    color: #1fa67a;
+    font-size: 25px;
+}
+
+.summary-header h2 {
+    margin: 0;
+    font-size: 21px;
+}
+
+.summary-item {
+    margin: 18px 0;
+}
+
+.summary-item span {
+    display: block;
+    color: #888;
+    font-size: 13px;
+}
+
+.summary-item strong {
+    display: block;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.summary-item i {
+    color: #1fa67a;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.price-row span {
+    color: #666;
+}
+
+.price-row.total {
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.price-row.total strong {
+    color: #1fa67a;
+}
+
+.secure-note {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 25px;
+    padding: 12px;
+    background: #f0fff9;
+    border-radius: 8px;
+}
+
+.secure-note i {
+    color: #1fa67a;
+}
+
+.secure-note p {
+    font-size: 12px;
+    margin: 0;
+    color: #666;
+}
+
+
+/* =========================================
+   SUCCESS POPUP
+========================================= */
+
+.success-popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.success-card {
+    background: white;
+    width: 90%;
+    max-width: 420px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.success-icon {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    background: #e5f9f1;
+    color: #1fa67a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.success-card h2 {
+    margin: 20px 0 10px;
+}
+
+.success-card p {
+    color: #777;
+}
+
+.booking-id {
+    margin: 20px 0;
+}
+
+.success-card button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #1fa67a;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 800px) {
+
+    .payment-container {
+        grid-template-columns: 1fr;
+    }
+
+    .payment-left {
+        padding: 25px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .card-row {
+        flex-direction: column;
+    }
+
+    .payment-heading h1 {
+        font-size: 22px;
+    }
+
+}
